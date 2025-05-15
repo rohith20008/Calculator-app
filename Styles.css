@@ -1,0 +1,51 @@
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border-color: chartreuse;
+    font-weight: bold;
+    background-image: radial-gradient(rgb(255, 1, 1),rgb(246, 255, 0));
+    font-size: 3rem;
+    cursor: pointer;
+    box-shadow: 5px 5px 7px;
+
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 10px;
+}
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgb(173, 173, 218),rgb(101, 70, 95),rgb(141, 86, 124),rgb(132, 80, 131),rgb(168, 129, 162),rgb(105, 76, 105));
+    border-radius: 20px;
+    overflow: hidden;
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background: rgb(166, 108, 154);
+    color: rgb(20, 20, 20);
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url(japan-background-digital-art.jpg);
+}
+button:hover{
+    background-image:radial-gradient(black,violet)
+}
+button:active{
+    background-image: radial-gradient(white,violet);
+}
+.operator-btn{
+    background-image: radial-gradient(pink,red);
+
+}
